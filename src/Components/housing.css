@@ -1,0 +1,209 @@
+.h-container{
+    padding-top:1rem;
+    padding-bottom:1rem;
+    justify-content: space-between;
+    color:var(--secondary)
+}
+.h-wrapper{
+    background: var(--black);
+    color:white;
+}
+.h-menu{
+    gap:2rem;
+}
+.h-menu:hover{
+    cursor:pointer;
+}
+.hero-wrapper{
+    color:white;
+    position:relative;
+    padding-bottom: 2rem;
+}
+.hero-container{
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.image-container{
+    width:30rem;
+    height:35rem;
+    overflow:hidden;
+    border-radius: 15rem 15rem 0 0;
+    border :8px solid rgba(255, 255, 255 ,0.12);
+}
+.image-container>img{
+  width:100%;
+  height:100%;
+}
+.hero-title{
+    position: relative;
+    z-index:1;
+}
+.hero-title>h1{
+    font-weight: 600;
+    font-size: 3.8rem;
+    line-height:4rem;
+}
+.orange-circle{
+    height:4rem;
+    width:4rem;
+    border-radius: 999px;
+    position: absolute;
+    background: var(--orange-gradient);
+    right:28%;
+    top:-10%;
+    z-index:-1;
+}
+.search-bar{
+    background-color:white;
+    justify-content: space-between;
+    border-radius: 5px;
+    border:1px solid rgba(120,120,120,0.374);
+    padding:0.5rem 1rem;
+    margin-top: 10px;
+    width:100%;
+}
+.search-bar>input{
+   outline: none;
+   border: none;
+}
+.stats{
+    width:100%;
+    justify-content: space-between;
+}
+.stats>:nth-child(1)
+{
+    font-size:2rem;
+}
+.stats>:nth-child(1)>:last-child{
+    color:orange;
+}
+  /* Companies */
+
+.c-container{
+    justify-content: space-between;
+    gap:1rem;
+}
+.c-container>img{
+    width:9rem;
+}
+.c-wrapper{
+    background: white;
+}
+ /* Residencies */
+
+ .r-head{
+    margin-bottom: 2rem;
+ }
+ .r-wrapper{
+    background: white;
+}
+ .r-card{
+    gap:0.6rem;
+    padding:1rem;
+    border-radius:10px;
+    max-width:max-content;
+    margin:auto;
+    transition: all 300ms ease in;
+ }
+ .r-card>img{
+    width:100%;
+    max-width:15rem;
+ }
+ .r-card:nth-child(2){
+    font-size: 1.2rem;
+    font-weight:600
+ }
+ .r-card:nth-child(3)
+ {
+    font-size:1.5rem;
+ }
+ .r-card:nth-child(4){
+    font-size:0.7rem;
+    width:15rem;
+ }
+ .r-card:hover{
+    scale:1.025;
+    cursor:pointer;
+    background: linear-gradient(180deg,
+     rgba(255,255,255,0) 0%,
+     rgba(136,160,255,0.46) 217.91%
+    );
+    box-shadow:0px 72px 49px -51px rgba(136,160,255,0.21);
+ }
+ .swiper-horizontal{
+    overflow:hidden;
+ }
+ .r-container{
+    overflow:hidden;
+    position: relative;
+ }
+ .r-button{
+    position:absolute;
+    gap:1rem;
+    top:-4rem;
+    right:0;
+ }
+ .r-button button{
+    font-size: 1.2rem;
+    padding:0.2rem 0.8rem;
+    color:blue;
+    border:none;
+    border-radius: 5px;
+    background-color:white;
+    cursor:pointer;
+ }
+ .r-button:nth-child(1){
+   background-color:#EEEEFF;
+ }
+ .r-button:nth-child(2){
+    box-shadow:0px 0px 5px 1px rgba(0,0,0,0.25);
+  }
+   /* value */
+
+   .v-container .image-container{
+    border:8px solid rgb(232 232 232 /93%);
+
+   }
+   .v-container{
+    flex:1;
+    justify-content: space-around;
+   }
+   .v-right{
+    gap:0.5rem;
+   }
+   .accordion{
+    margin-top:2rem;
+    border:none;
+   }
+   .accordionItem{
+    background:white;
+    border:0.8px solid rgba(128,128,128,0.143);
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 20px;
+   }
+   .accordionItem.expanded{
+    box-shadow: var(--shadow);
+    border-radius: 6px;
+   }
+   .AccordionItemButton{
+    background: white;
+    padding:1rem;
+    width:100%;
+    justify-content: space-between;
+    cursor:pointer
+   }
+   .icon{
+    padding:10px;
+    background:#EEEEFF;
+    border-radius: 5px;
+   }
+   .icon svg{
+    fill:var(--blue);
+   }
+   .AccordionItemButton .primaryText{
+    font-size:1.1rem;
+   }
+
+
+ 
