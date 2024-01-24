@@ -1,4 +1,6 @@
 import React,{useState} from 'react';
+import './housing.css';
+import '../../src/App.css';
 import {
   Accordion,
   AccordionItem,
